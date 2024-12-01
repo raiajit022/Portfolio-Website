@@ -78,17 +78,10 @@ const inter = Inter({
 })
 ```
 
-## 🚀 Deployment
-
-Deploy easily using [Vercel](https://vercel.com):
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/ajitrai123/portfolio-website)
-
 ## 👨‍💻 Author
 
 **Ajit Rai**
-- GitHub: [@ajitrai123](https://github.com/ajitrai123)
-- LinkedIn: [Ajit Rai](https://linkedin.com/in/ajitrai123)
+- GitHub: [@raiajit022](https://github.com/raiajit022)
 
 ## 📄 License
 
