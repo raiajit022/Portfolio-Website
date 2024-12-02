@@ -1,4 +1,4 @@
-import { Card } from './ui/card';
+import { Card } from '@/components/ui/card';
 
 interface ProjectCardProps {
   title: string;
@@ -7,12 +7,12 @@ interface ProjectCardProps {
   achievements: string[];
 }
 
-function ProjectCard({ 
+export const ProjectCard: React.FC<ProjectCardProps> = ({ 
   title, 
   description, 
   technologies, 
   achievements 
-}: ProjectCardProps) {
+}) => {
   return (
     <Card className="p-6">
       <h3 className="text-xl font-semibold mb-2">{title}</h3>
@@ -41,6 +41,4 @@ function ProjectCard({
       </div>
     </Card>
   );
-}
-
-export default ProjectCard; 
+}; 

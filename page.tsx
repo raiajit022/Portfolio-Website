@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button"
 import { Card } from "@/components/ui/card"
 import Image from "next/image"
 import ProjectCard from './app/components/ProjectCard'
+import { EducationCard } from '@/components/cards/EducationCard';
 
 export default function Portfolio() {
   const [activeTab, setActiveTab] = useState('Experience')
@@ -234,12 +235,14 @@ function EducationSection() {
         institution="Manav Rachna International Institute of Research & Studies"
         location="Faridabad, Haryana"
         year="2018"
+        achievements={[]}
       />
       <EducationCard
         degree="XII (CBSE): Science Stream"
         institution="Kendriya Vidyalaya No.1, Delhi Cantt."
         location="New Delhi"
         year="2014"
+        achievements={[]}
       />
       <EducationCard
         degree="High School Diploma"
@@ -256,28 +259,9 @@ function EducationSection() {
         institution="AnalytixLabs"
         location="Gurugram"
         year="2020"
+        achievements={[]}
       />
     </div>
-  )
-}
-
-function EducationCard({ degree, institution, location, year, achievements }) {
-  return (
-    <Card className="p-6">
-      <h3 className="text-xl font-semibold mb-2">{degree}</h3>
-      <p className="text-gray-600 mb-1">{institution}, {location}</p>
-      <p className="text-gray-500 mb-4">{year}</p>
-      {achievements && achievements.length > 0 && (
-        <>
-          <h4 className="font-semibold mb-2">Achievements:</h4>
-          <ul className="list-disc list-inside space-y-1">
-            {achievements.map((achievement, index) => (
-              <li key={index} className="text-gray-700">{achievement}</li>
-            ))}
-          </ul>
-        </>
-      )}
-    </Card>
   )
 }
 
