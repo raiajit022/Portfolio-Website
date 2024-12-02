@@ -2,13 +2,13 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-  experimental: {
-    appDir: true,
-  },
   webpack: (config) => {
     config.resolve.fallback = { fs: false };
     return config;
   },
+  images: {
+    domains: ['hebbkx1anhila5yf.public.blob.vercel-storage.com'],
+  }
 }
 
 module.exports = nextConfig
