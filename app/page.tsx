@@ -1,14 +1,14 @@
 'use client'
 
 import { useState } from 'react'
-import { Tabs } from '@/components/Tabs'
-import { Profile } from '@/components/Profile'
-import { ExperienceSection } from '@/components/sections/ExperienceSection'
-import { ProjectsSection } from '@/components/sections/ProjectsSection'
-import { EducationSection } from '@/components/sections/EducationSection'
-import { BlogsSection } from '@/components/sections/BlogsSection'
-import { AwardsSection } from '@/components/sections/AwardsSection'
-import ProjectCard from '@/components/ProjectCard'
+import { Tabs } from './components/Tabs'
+import { Profile } from './components/Profile'
+import { ExperienceSection } from './components/sections/ExperienceSection'
+import { ProjectsSection } from './components/sections/ProjectsSection'
+import { EducationSection } from './components/sections/EducationSection'
+import { BlogsSection } from './components/sections/BlogsSection'
+import { AwardsSection } from './components/sections/AwardsSection'
+import ProjectCard from './components/ProjectCard'
 
 export default function Portfolio() {
   const [activeTab, setActiveTab] = useState('Experience')
