@@ -9,13 +9,13 @@ interface EducationCardProps {
   achievements?: string[];
 }
 
-export const EducationCard: React.FC<EducationCardProps> = ({ 
+export function EducationCard({ 
   degree, 
   institution, 
   location, 
   year, 
   achievements = [] 
-}) => {
+}: EducationCardProps) {
   return (
     <Card className="p-6">
       <h3 className="text-xl font-semibold mb-2">{degree}</h3>
@@ -25,7 +25,7 @@ export const EducationCard: React.FC<EducationCardProps> = ({
         <>
           <h4 className="font-semibold mb-2">Achievements:</h4>
           <ul className="list-disc list-inside space-y-1">
-            {achievements.map((achievement: string, index: number) => (
+            {achievements.map((achievement, index) => (
               <li key={index} className="text-gray-700">{achievement}</li>
             ))}
           </ul>
@@ -33,4 +33,4 @@ export const EducationCard: React.FC<EducationCardProps> = ({
       )}
     </Card>
   );
-}; 
+} 

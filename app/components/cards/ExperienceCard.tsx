@@ -1,4 +1,5 @@
-import { Card } from '@/components/ui/card';
+import React from 'react'
+import { Card } from '../ui/Card'
 
 interface ExperienceCardProps {
   title: string;

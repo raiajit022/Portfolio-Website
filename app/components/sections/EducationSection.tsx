@@ -1,5 +1,5 @@
 import React from 'react';
-import { EducationCard } from '@/components/cards/EducationCard';
+import { EducationCard } from '../cards/EducationCard';
 
 export function EducationSection() {
   return (

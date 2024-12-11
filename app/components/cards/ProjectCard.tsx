@@ -1,18 +1,19 @@
-import { Card } from '../ui/Card';
+import React from 'react'
+import { Card } from '../ui/Card'
 
 interface ProjectCardProps {
-  title: string;
-  description: string;
-  technologies: string[];
-  achievements: string[];
+  title: string
+  description: string
+  technologies: string[]
+  achievements: string[]
 }
 
-export const ProjectCard: React.FC<ProjectCardProps> = ({ 
+export function ProjectCard({ 
   title, 
   description, 
   technologies, 
   achievements 
-}) => {
+}: ProjectCardProps) {
   return (
     <Card className="p-6">
       <h3 className="text-xl font-semibold mb-2">{title}</h3>
@@ -40,5 +41,5 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({
         </ul>
       </div>
     </Card>
-  );
-}; 
+  )
+} 

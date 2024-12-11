@@ -1,4 +1,4 @@
-import { ProjectCard } from '@/components/cards/ProjectCard';
+import { ProjectCard } from '../cards/ProjectCard'
 
 export function ProjectsSection() {
   return (
@@ -34,5 +34,5 @@ export function ProjectsSection() {
         ]}
       />
     </div>
-  );
+  )
 } 
