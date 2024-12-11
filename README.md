@@ -17,6 +17,7 @@ A modern, responsive personal portfolio website built with Next.js 14, TypeScrip
 - **Google Fonts**: Integrated Inter font for clean typography
 - **Type Safety**: Full TypeScript implementation for reliable code
 - **Custom Components**: Modular design with reusable components
+- **Heroku Deployment**: Configured for seamless deployment on Heroku
 
 ## 🛠️ Tech Stack
 
@@ -26,6 +27,7 @@ A modern, responsive personal portfolio website built with Next.js 14, TypeScrip
 - [React 18](https://reactjs.org/)
 - [@radix-ui/react-slot](https://www.radix-ui.com/)
 - [Lucide React](https://lucide.dev/) for icons
+- [Heroku](https://www.heroku.com/) for deployment
 
 ## 🏃‍♂️ Getting Started
 
@@ -49,6 +51,37 @@ npm run dev
 ```
 
 4. Open [http://localhost:3000](http://localhost:3000) in your browser
+
+## 📁 Deployment
+
+### Heroku Deployment
+
+1. Install the Heroku CLI:
+```bash
+npm install -g heroku
+```
+
+2. Login to Heroku:
+```bash
+heroku login
+```
+
+3. Create a new Heroku app:
+```bash
+heroku create portfolio-website-new
+```
+
+4. Set environment variables:
+```bash
+heroku config:set NODE_ENV=production
+```
+
+5. Deploy to Heroku:
+```bash
+git push heroku main
+```
+
+Your app will be available at: https://portfolio-website-new.herokuapp.com
 
 ## 📁 Project Structure
 
