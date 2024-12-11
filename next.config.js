@@ -16,7 +16,12 @@ const nextConfig = {
       },
     ],
   },
-  reactStrictMode: true
+  reactStrictMode: true,
+  experimental: {
+    turbotrace: {
+      enabled: true,
+    },
+  },
 }
 
 module.exports = nextConfig
