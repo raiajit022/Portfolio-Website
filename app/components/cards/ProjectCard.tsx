@@ -1,4 +1,4 @@
-import { Card } from '@/app/components/ui/card';
+import { Card } from '@/ui/card';
 
 interface ProjectCardProps {
   title: string;

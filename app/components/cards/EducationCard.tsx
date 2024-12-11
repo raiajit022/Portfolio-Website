@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card } from '@/app/components/ui/card';
+import { Card } from '@/ui/card';
 
 interface EducationCardProps {
   degree: string;
