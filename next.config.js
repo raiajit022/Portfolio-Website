@@ -18,11 +18,6 @@ const nextConfig = {
     ],
   },
   reactStrictMode: true,
-  experimental: {
-    turbotrace: {
-      enabled: true,
-    },
-  },
   webpack: (config) => {
     config.resolve.fallback = { fs: false };
     return config;
