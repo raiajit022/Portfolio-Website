@@ -1,4 +1,5 @@
-import { ExperienceCard } from '@/components/cards/ExperienceCard';
+import React from 'react'
+import { ExperienceCard } from '../cards/ExperienceCard'
 
 export function ExperienceSection() {
   return (
@@ -54,5 +55,5 @@ export function ExperienceSection() {
         ]}
       />
     </div>
-  );
+  )
 } 

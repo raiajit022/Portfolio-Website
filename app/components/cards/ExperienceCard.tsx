@@ -1,34 +1,31 @@
 import React from 'react'
-import { Card } from '../ui/Card'
+import Card from '../ui/card'
 
 interface ExperienceCardProps {
-  title: string;
-  company?: string;
-  location: string;
-  period: string;
-  achievements: string[];
+  title: string
+  company?: string
+  location: string
+  period: string
+  achievements: string[]
 }
 
-export function ExperienceCard({ 
-  title, 
-  company, 
-  location, 
-  period, 
-  achievements 
-}: ExperienceCardProps) {
+export function ExperienceCard(props: ExperienceCardProps) {
+  const { title, company, location, period, achievements } = props
+  
   return (
-    <div className="border-b last:border-b-0 pb-6 last:pb-0 mb-6 last:mb-0">
-      <h3 className="text-xl font-semibold mb-1">{title}</h3>
-      <div className="text-gray-600 mb-4">
-        {company && <p>{company}, {location}</p>}
-        {!company && <p>{location}</p>}
-        <p className="text-sm">{period}</p>
-      </div>
-      <ul className="space-y-2">
+    <Card className="p-6">
+      <h3 className="text-xl font-semibold mb-2">{title}</h3>
+      {company ? (
+        <p className="text-gray-600 mb-1">{company}, {location}</p>
+      ) : (
+        <p className="text-gray-600 mb-1">{location}</p>
+      )}
+      <p className="text-gray-500 mb-4">{period}</p>
+      <ul className="list-disc list-inside space-y-1">
         {achievements.map((achievement, index) => (
-          <li key={index} className="text-gray-700">• {achievement}</li>
+          <li key={index} className="text-gray-700">{achievement}</li>
         ))}
       </ul>
-    </div>
+    </Card>
   )
 } 

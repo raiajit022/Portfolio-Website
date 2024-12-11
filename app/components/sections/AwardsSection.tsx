@@ -1,4 +1,5 @@
-import { Card } from '../ui/Card';
+import React from 'react'
+import Card from '../ui/card'
 
 export function AwardsSection() {
   return (
@@ -11,5 +12,5 @@ export function AwardsSection() {
         </ul>
       </Card>
     </div>
-  );
+  )
 } 

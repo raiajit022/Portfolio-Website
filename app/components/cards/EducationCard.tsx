@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card } from '../../components/ui/Card';
+import Card from '../ui/Card';
 
 interface EducationCardProps {
   degree: string;
@@ -9,13 +9,9 @@ interface EducationCardProps {
   achievements?: string[];
 }
 
-export function EducationCard({ 
-  degree, 
-  institution, 
-  location, 
-  year, 
-  achievements = [] 
-}: EducationCardProps) {
+export function EducationCard(props: EducationCardProps) {
+  const { degree, institution, location, year, achievements = [] } = props;
+  
   return (
     <Card className="p-6">
       <h3 className="text-xl font-semibold mb-2">{degree}</h3>

@@ -1,3 +1,4 @@
+import React from 'react'
 import { ProjectCard } from '../cards/ProjectCard'
 
 export function ProjectsSection() {
@@ -13,6 +14,7 @@ export function ProjectsSection() {
           "Created interactive visualizations for stakeholder presentations"
         ]}
       />
+
       <ProjectCard
         title="Customer Segmentation Analysis"
         description="Conducted a comprehensive analysis to segment customers based on their purchasing behavior and demographics."
@@ -23,6 +25,7 @@ export function ProjectsSection() {
           "Increased customer retention rate by 10%"
         ]}
       />
+
       <ProjectCard
         title="Financial Dashboard"
         description="Created an interactive dashboard to visualize key financial metrics and KPIs for executive decision-making."

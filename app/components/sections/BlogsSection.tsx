@@ -1,4 +1,5 @@
-import { Card } from '../ui/Card';
+import React from 'react'
+import Card from '../ui/card'
 
 export function BlogsSection() {
   return (
@@ -19,5 +20,5 @@ export function BlogsSection() {
         </a>
       </Card>
     </div>
-  );
+  )
 } 

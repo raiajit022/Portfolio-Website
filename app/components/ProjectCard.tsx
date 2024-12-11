@@ -1,16 +1,18 @@
-import React from 'react'
-import Card from '../ui/Card'
+import { Card } from '@/components/ui/card';
 
 interface ProjectCardProps {
-  title: string
-  description: string
-  technologies: string[]
-  achievements: string[]
+  title: string;
+  description: string;
+  technologies: string[];
+  achievements: string[];
 }
 
-export function ProjectCard(props: ProjectCardProps) {
-  const { title, description, technologies, achievements } = props
-  
+function ProjectCard({ 
+  title, 
+  description, 
+  technologies, 
+  achievements 
+}: ProjectCardProps) {
   return (
     <Card className="p-6">
       <h3 className="text-xl font-semibold mb-2">{title}</h3>
@@ -31,10 +33,14 @@ export function ProjectCard(props: ProjectCardProps) {
         <h4 className="font-medium mb-2">Key Achievements:</h4>
         <ul className="list-disc list-inside">
           {achievements.map((achievement, index) => (
-            <li key={index} className="text-gray-600">{achievement}</li>
+            <li key={index} className="text-gray-600">
+              {achievement}
+            </li>
           ))}
         </ul>
       </div>
     </Card>
-  )
-} 
+  );
+}
+
+export default ProjectCard; 
