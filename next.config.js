@@ -8,6 +8,12 @@ const nextConfig = {
         port: '',
         pathname: '/**',
       },
+      {
+        protocol: 'https',
+        hostname: 'www.positivessl.com',
+        port: '',
+        pathname: '/**',
+      },
     ],
   },
   reactStrictMode: true

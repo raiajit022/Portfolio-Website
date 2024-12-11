@@ -10,4 +10,4 @@ export function SkillSection({ title, skills }: SkillSectionProps) {
       <p className="text-gray-600 text-sm">{skills}</p>
     </div>
   )
-}
+} 

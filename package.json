@@ -32,5 +32,11 @@
     "postcss": "^8.4.32",
     "tailwindcss": "^3.3.6",
     "typescript": "5.0.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/raiajit022/Portfolio-Website.git"
+  },
+  "author": "Ajit Kumar Rai",
+  "license": "MIT"
 }
