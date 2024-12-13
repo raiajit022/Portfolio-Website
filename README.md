@@ -4,7 +4,7 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue)](https://www.typescriptlang.org/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.3-38B2AC)](https://tailwindcss.com/)
 
-Visit : https://ajitrai.me
+Visit: https://ajitrai.me
 
 A modern, responsive personal portfolio website built with Next.js 14, TypeScript, and Tailwind CSS. Features a clean design with project showcases and experience highlights.
 
