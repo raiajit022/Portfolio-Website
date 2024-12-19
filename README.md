@@ -164,4 +164,4 @@ const inter = Inter({
 This project is open source.
 ## 💫 Support
 
-Give a ⭐️ if you find this project useful!!
+Give a ⭐️ if you find this project useful!
