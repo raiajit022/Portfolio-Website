@@ -158,7 +158,7 @@ const inter = Inter({
 
 **Ajit Rai**
 - GitHub: [@raiajit022](https://github.com/raiajit022)
-- Contact: info@ajitrai.me
+- Contact: raiajit022@gmail.com
 
 ## 📄 License
 
