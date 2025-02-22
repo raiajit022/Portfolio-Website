@@ -16,20 +16,20 @@ export function Profile() {
             priority
           />
         </div>
-        <h1 className="text-2xl font-bold mb-1">Ajit Kumar Rai</h1>
-        <p className="text-gray-600 mb-4">Data Analyst | Business Intelligence Expert</p>
+        <h1 className="text-2xl font-bold mb-1">Ajit Rai</h1>
+        <p className="text-gray-600 mb-4">Business Analyst | Business Intelligence Expert</p>
         
         <div className="text-sm text-gray-600 space-y-2 text-left">
           <p>📧 {CONTACT_INFO.email}</p>
           <p>📱 {CONTACT_INFO.phone}</p>
           <p>📍 {CONTACT_INFO.location}</p>
           <a 
-            href={CONTACT_INFO.linkedin}
+            href={CONTACT_INFO.github}
             className="text-blue-600 hover:underline inline-flex items-center"
             target="_blank"
             rel="noopener noreferrer"
           >
-            🔗 LinkedIn Profile
+            🔗 GitHub Profile
           </a>
         </div>
       </div>

@@ -5,37 +5,38 @@ export function ProjectsSection() {
   return (
     <div className="space-y-6">
       <ProjectCard
-        title="Sales Forecasting Model"
-        description="Developed a machine learning model to predict future sales based on historical data and market trends."
-        technologies={["Python", "Pandas", "Scikit-learn", "Matplotlib"]}
+        title="Coffee Business Intelligence Dashboard"
+        description="Designed an interactive Excel dashboard to analyze coffee shop sales, providing insights into revenue trends, customer footfall, and top-performing products."
         achievements={[
-          "Improved sales prediction accuracy by 15%",
-          "Implemented feature engineering to capture seasonal trends",
-          "Created interactive visualizations for stakeholder presentations"
+          "Developed a dynamic Coffee Shop Sales Dashboard in Excel, uncovering key insights from $698K+ in revenue and 149K+ customer footfall using Pivot Tables, Power Query, and advanced data visualization.",
+          "Optimized business decision-making by analyzing peak sales hours, top-performing products, and store-wise footfall trends, leading to data-driven sales strategies.",
+          "Automated data cleaning and transformation processes, reducing manual effort and significantly improving efficiency in analyzing large-scale transaction datasets."
         ]}
+        githubLink="https://github.com/raiajit022/Coffee-Shop-Sales"
       />
 
       <ProjectCard
-        title="Customer Segmentation Analysis"
-        description="Conducted a comprehensive analysis to segment customers based on their purchasing behavior and demographics."
-        technologies={["R", "ggplot2", "cluster", "dplyr"]}
+        title="Sales & Profit Analysis Dashboard"
+        description="Built an interactive Excel dashboard to analyze sales performance, profit margins, and customer trends, enabling data-driven business decisions."
         achievements={[
-          "Identified 5 distinct customer segments",
-          "Developed targeted marketing strategies for each segment",
-          "Increased customer retention rate by 10%"
+          "Developed an interactive Excel dashboard to visualize sales trends, profit margins, and customer insights, enhancing data-driven decision-making.",
+          "Leveraged advanced Excel techniques (Pivot Tables, Data Validation, and Conditional Formatting) to automate reporting and improve data accuracy.",
+          "Identified key sales drivers and market trends by analyzing product performance, customer segments, and regional profitability."
         ]}
+        githubLink="https://github.com/raiajit022/Sales-Profit-Analysis-Dashboard"
       />
 
       <ProjectCard
-        title="Financial Dashboard"
-        description="Created an interactive dashboard to visualize key financial metrics and KPIs for executive decision-making."
-        technologies={["Tableau", "SQL", "Excel"]}
+        title="Loan Risk & Approval Analysis"
+        description="Created an interactive Excel dashboard to analyze loan application trends, risk factors, and borrower behavior, improving decision-making in loan approvals."
         achievements={[
-          "Reduced report generation time by 70%",
-          "Implemented drill-down functionality for detailed analysis",
-          "Integrated real-time data updates from multiple sources"
+          "Developed an interactive Bank Loan Application Dashboard in Excel, analyzing 14.4K+ loan applications using Pivot Tables, Power Query, and advanced data visualization techniques.",
+          "Identified key insights on loan approval trends, risk factors, and borrower behavior, enabling data-driven decision-making for optimizing funding strategies.",
+          "Automated data cleaning and transformation, improving efficiency and accuracy in analyzing large datasets, reducing manual effort.",
+          "Designed state-wise and term-based loan analysis, using charts, maps, and trend lines to highlight high-risk segments and loan performance metrics."
         ]}
+        githubLink="https://github.com/raiajit022/Loan-Risk-Approval-Analysis"
       />
     </div>
   )
-} 
+}

@@ -18,23 +18,6 @@ export function EducationSection() {
         year="2014"
         achievements={[]}
       />
-      <EducationCard
-        degree="High School Diploma"
-        institution="Kendriya Vidyalaya Air Force Stn. Avadi"
-        location="Chennai, Tamil Nadu"
-        year="2011"
-        achievements={[
-          "Graduated with 8.4 CGPA",
-          "Elected Captain of Cricket Team – Juniors"
-        ]}
-      />
-      <EducationCard
-        degree="Training & Certification: Business Analytics 360"
-        institution="AnalytixLabs"
-        location="Gurugram"
-        year="2020"
-        achievements={[]}
-      />
     </div>
   );
 } 
