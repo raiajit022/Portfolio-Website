@@ -7,7 +7,7 @@
 Visit: https://ajitrai.me
        || https://raiajit022.github.io/Portfolio-Website/
 
-A modern, responsive personal portfolio website built with Next.js 14, TypeScript, and Tailwind CSS. Features a clean design with project showcases and experience highlights
+A modern, responsive personal portfolio website built with Next.js 14, TypeScript, and Tailwind CSS. Features a clean design with project showcases and experience highlights.
 
 ## 🚀 Features
 
