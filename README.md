@@ -129,7 +129,7 @@ Your app will be available at: https://portfolio-website-new.herokuapp.com
 
 - `app/page.tsx`: Main portfolio page with tab navigation
 - `app/components/Profile.tsx`: Profile section with personal info and skills
-- `app/lib/constants.ts`: Centralized constants for contact info, skills, etc.
+- `app/lib/constants.ts`: Centralised constants for contact info, skills, etc.
 - `app/components/cards/`: Reusable card components for different sections
 - `app/components/sections/`: Main content sections for each tab
 - `app/components/ui/`: Base UI components like buttons and cards
